@@ -81,4 +81,13 @@ class Slot {
         new Coord(1067, 780),
         new Coord(1103, 780),
     };
+    public static Coord CraftTable = new Coord(960, 528);
+    public static Coord EnderChest = new Coord(1069, 493);
+    public static Coord ech_0 = new Coord(816, 647);
+    public static Coord ech_1 = new Coord(851, 645);
+    public static Coord ech_2 = new Coord(958, 764);
+    public static Coord ech_ech0 = new Coord(814, 546);
+    public static Coord ech_ech1 = new Coord(850, 550);
+    public static Coord ech_ech2 = new Coord(817, 579);
+    public static Coord CraftGoBack = new Coord(960, 600);
 }
