@@ -3,10 +3,10 @@
 1. 各ファイルの`#load`を正しいパスに書き換える。
 2. 座標設定を切り替える際は`createhotpotatobook.csx`のヘッダ部分にある`#load`を書き換えて切り替える。使用するファイルは以下の通り。
 
-|file|resolution|gui scale|
-|---|---|---|
-|slot.csx|1920x1200|normal|
-|slot_note.csx|1920x1080|normal|
+|file|resolution|gui scale|mode|
+|---|---|---|---|
+|slot.csx|1920x1200|normal|windowed|
+|slot_note.csx|1920x1080|normal|windowed|
 
 3. クラフト時、購入時の操作待機時間は以下を書き換えることにより変更可能。(ms)
 ```cs
@@ -19,7 +19,7 @@ int loopCount = 1;
 ```
 5. 運用時はホットバーの左4つを埋め、エンダーチェストの下二段を空けておく。
 
-# known bugs
+# known issues
 
 1. 途中で中止不能。(止めたい場合はk2kを強制終了する。)
 2. ファイル名が`createhotpotatobook.csx`であるのに実際に作成されるのは`enchanted baked potato`である。
